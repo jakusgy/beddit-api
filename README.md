@@ -1,4 +1,4 @@
-# Beddit web API documentation
+# Beddit web API documentation (Beta)
 
 [Beddit](http://www.beddit.com) is a sleep tracker device and mobile
 application. It has an ultra-thin film sensor that you place in your bed, under
@@ -9,6 +9,9 @@ breathing, snoring, and more.
 When Beddit user signs in to Beddit, all sleep data is automatically synced to
 Beddit servers. The web API gives developers possibility to make applications
 that use Beddit sleep data.
+
+The API is free for all during the Beta period. When data from the API,
+please show the text "Sleep data provided by Beddit" alongside the data.
 
 The documentation is divided into following chapters.
 
