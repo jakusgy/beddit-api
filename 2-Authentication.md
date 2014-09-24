@@ -52,10 +52,22 @@ Request must be authenticated by Application specific token.
 {
     "user" : 7,
     "access_token" : "2YotnFZFEjr1zCsicMWpAA",
-    "token_type" : "example",
+    "token_type" : "user",
     "expires_in" : 3600
 }
 ```
+
+Property | Meaning
+------|--------
+user | Id of the associated user
+access_token | The access token to be used in Authorization header of the requests
+token_type | The token type, currently supported type is "user"
+expires_in | *Optional* In how many seconds the token expires. If missing, the token is not set to expire.
+
+If the token is already expired, or otherwise cancelled, HTTP 403 error is
+returned. In this case, the client application should ask the user to
+authenticate again.
+
 
 **Errors**
 
@@ -74,12 +86,13 @@ Get information about the access token used in the request.
 
 Request must be authenticated by User specific token.
 
-**Response**
+**Example Response**
 
 ```javascript
 {
-  "user" : 1231, // Id of the associated user
-  "expires_in" : 3600, // Number of seconds before this token expires
-  "token_type": "bearer"
+  "user" : 1231,
+  "token_type": "user"
 }
 ```
+
+Please see previous section for explanations of the access token properties.
