@@ -12,6 +12,7 @@ that use Beddit sleep data.
 
 The API is free for all during the Beta period. When data from the API,
 please show the text "Sleep data provided by Beddit" alongside the data.
+We reserve the right to make changes to API during the Beta period.
 
 The documentation is divided into following chapters.
 
