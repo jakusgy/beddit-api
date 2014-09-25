@@ -3,18 +3,20 @@
 [Beddit](http://www.beddit.com) is a sleep monitoring device and mobile
 application. It has an ultra-thin film sensor that you place in your bed, under
 the bed sheet. All you have to do is to sleep on it. Beddit connects wirelessly
-to your smartphone and provides an overall sleep analysis every morning. It
-measures the user's sleep stages, heart rate, breathing rate, snoring, and more.
+to your mobile device and provides you with an overall sleep analysis every morning. 
+The Beddit Sleep Monitor measures the user's sleep stages, heart and breathing rates, 
+snoring, and more.
 
 When a Beddit user signs into Beddit, all her sleep data is automatically synced
-to the Beddit servers. The web API gives developers the possibility to make
-applications that use Beddit sleep data.
+to the Beddit servers (Amazon AWS). The web API gives developers the possibility 
+to use Beddit sleep data in the context of their mobile application or web service.
 
-We kindly ask that you mention Beddit when you use data provided by the Beddit
-API. We appreciate when our partners include a link back to www.beddit.com on
-their website/app etc. and mention Beddit in, for example, publicly available
-graphs based on Beddit sleep data. for the latter you can simply use "Powered by
-Beddit"-text if graphical assets are not easily applicable.
+The only catch is that we kindly ask you to mention Beddit when you use data
+provided by the Beddit API. We also appreciate when our partners include a link 
+back to www.beddit.com on their website/app etc. Now for you to be totally awesome,
+please mention Beddit in, for example, your publicly available graphs that are based 
+on Beddit sleep data. For the latter you can simply use "Powered by Beddit"-text if 
+graphical assets are not easily applicable.
 
 Do let us know about anything cool that you build on top of our data so we can
 share it in our channels! You can use the following assets:
@@ -26,12 +28,13 @@ share it in our channels! You can use the following assets:
 ![Powered by Beddit](images/powered_by_beddit.png)
 
 The API is free for all during the Beta period. At all times, Beddit reserves
-the right to make changes to its API policy. Currently only Beddit Android app
-works with the API. Support for iOS app is coming soon.
+the right to make changes to its API policy. Currently, only the Beddit Android app
+works with the API. Support for iOS app is coming soon - just hold on tight 'cause
+Kansas will eventually go bye bye (hint: "The Matrix").
 
-Please note that sleep data is very personal and sensitive. You should take extra
-care to use and store it according to the best privacy and security practices. It is
-a good policy to inform your user how you intend to use her data and in what
+On a more serious note, please understand that sleep data is very personal and sensitive.
+You should take extra care to use and store it according to the best privacy and security
+practices. It is a good policy to inform your user how you intend to use her data and in what
 context.
 
 If you intend to use the API for commercial purposes, please contact us using
@@ -39,10 +42,10 @@ If you intend to use the API for commercial purposes, please contact us using
 
 By using the Beddit API you agree that you are fully responsible for your own
 conduct and content, for any possible consequences and you cannot hold Beddit
-Ltd., its affiliates or partners liable for possible violations. You agree not
-to use the Beddit API for any illegal activities and agree to comply with all
-relevant and applicable laws and regulations. You also agree to comply with
-Beddit's privacy policy and API policies.
+Ltd., its affiliates or partners liable for possible violations in such cases. 
+You agree not to use the Beddit API for any illegal activities and agree to 
+comply with all relevant and applicable laws and regulations. You also agree 
+to comply with Beddit's privacy policy and API policies.
 
 The documentation is divided into following chapters.
 
