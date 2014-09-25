@@ -10,8 +10,9 @@ When Beddit user signs in to Beddit, all sleep data is automatically synced to
 Beddit servers. The web API gives developers possibility to make applications
 that use Beddit sleep data.
 
-We ask that you mention Beddit when you use data from Beddit API. You can use
-the following assets:
+We ask that you mention Beddit when you use data from Beddit API and appreciate
+when our partners include a link back to www.beddit.com. You can use the
+following assets:
 
 ![Beddit logo](images/beddit_logo.png)
 
