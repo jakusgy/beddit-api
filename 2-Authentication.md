@@ -5,6 +5,10 @@ standard OAuth2 username/password authentication, backend provides the ability
 to authenticate as an application. Authentication information must be sent to
 backend within every request, in the Authorization HTTP header.
 
+You must never store Beddit user's username or password in your application.
+Instead, you exchange them to the access token, which is used to authenticate
+all requests.
+
 ## Token types
 
 Backend supports two token types: application and user tokens.
