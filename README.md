@@ -10,9 +10,17 @@ When Beddit user signs in to Beddit, all sleep data is automatically synced to
 Beddit servers. The web API gives developers possibility to make applications
 that use Beddit sleep data.
 
-The API is free for all during the Beta period. When data from the API,
-please show the text "Sleep data provided by Beddit" alongside the data.
-Beddit reserves the right to make changes to the API during the Beta period.
+We ask that you mention Beddit when you use data from Beddit API. You can use
+the following assets:
+
+![Beddit logo](images/beddit_logo.png)
+
+![Beddit small logo](images/beddit_logo_small.png)
+
+![Powered by Beddit](images/powered_by_beddit.png)
+
+The API is free for all during the Beta period.  Beddit reserves the right to
+make changes to the API during the Beta period.
 
 The documentation is divided into following chapters.
 
