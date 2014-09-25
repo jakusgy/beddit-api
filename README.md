@@ -13,19 +13,23 @@ to use Beddit sleep data in the context of their mobile application or web servi
 
 The only catch is that we kindly ask you to mention Beddit when you use data
 provided by the Beddit API. We also appreciate when our partners include a link 
-back to www.beddit.com on their website/app etc. Now for you to be totally awesome,
-please mention Beddit in, for example, your publicly available graphs that are based 
-on Beddit sleep data. For the latter you can simply use "Powered by Beddit"-text if 
-graphical assets are not easily applicable.
+back to www.beddit.com on their website/app etc. 
 
-Do let us know about anything cool that you build on top of our data so we can
-share it in our channels! You can use the following assets:
+You can use the following assets:
 
 ![Beddit logo](images/beddit_logo.png)
 
 ![Beddit small logo](images/beddit_logo_small.png)
 
 ![Powered by Beddit](images/powered_by_beddit.png)
+
+Now for you to be totally awesome, please mention Beddit in, for example, 
+your publicly available graphs/drawings etc. that are based on Beddit sleep data. 
+If graphical assets are not easily applicable in these cases, you can simply 
+use "Powered by Beddit" as a text snippet.
+
+Do let us know about anything cool that you build on top of our data so we can
+share it in our channels!
 
 The API is free for all during the Beta period. At all times, Beddit reserves
 the right to make changes to its API policy. Currently, only the Beddit Android app
