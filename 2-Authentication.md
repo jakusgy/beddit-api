@@ -48,7 +48,7 @@ password | _User's password_
 
 **Authentication**
 
-Request must be authenticated by Application specific token.
+No authentication headers are required.
 
 **Response**
 
