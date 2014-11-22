@@ -34,6 +34,70 @@ no_such_user | 400 | User account with that email was not found.
 email_send_failed | 500 | Password reset email could not be sent. This can happen due to invalid email address, or temporary problem with email sending service.
 
 
+## GET /api/v1/user/:user_id
+
+Return the current user profile data.
+
+### Authentication
+
+Request must be authenticated by Application specific token.
+
+### Response
+
+```javascript
+{
+  "id" : 123,
+  "email" : "example@email.com",
+  "name" : "Mikko W",
+  "date_of_birth" : "1981-03-05",
+  "sex" : "male",
+  "weight" : 65.5,
+  "height" : 169.0,
+  "sleep_time_goal" : 28800,
+  "tip_audiences" : ["general"],
+  "created" : 1371472503.646541,
+  "updated" : 1371492826.623422
+}
+```
+
+If the field value is not set, it is **null**.
+
+### Fields
+
+Fields that belong to the sleep object.
+
+Field | Description
+---------|--------
+id | Unique and permanent user id.
+email | User's email address. **Must not be null**
+name | User's name, as she want's to be called.
+date_of_birth | User's date of birth.
+sex | Biological sex. Choises are "male", "female", and null.
+weight | Weight in kilograms
+height | Height in centimeters
+sleep_time_goal | Sleep time goal in seconds. **Must not be null**
+tip_audiences | Sleep tip categories the user has chosen to see. May be empty list, but not null.
+created | Timestamp of user creation
+updated | Timestamp of user profile update
+
+
+## PUT /api/v1/user/:user_id
+
+Update all or some of the fields in user profile.
+
+### Request
+
+The data to update is sent in request body in JSON format, as in the GET
+request. Id, created, and updated fields are ignored, if present.
+
+Fields can be removed (cleared) by setting a field value to null in the request.
+
+
+### Response
+
+Returns the updated user profile, see GET request.
+
+
 # Sleep data resources
 
 ## Sleep data format
