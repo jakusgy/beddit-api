@@ -40,7 +40,7 @@ Return the current user profile data.
 
 ### Authentication
 
-Request must be authenticated by Application specific token.
+Request must be authenticated by User specific token.
 
 ### Response
 
